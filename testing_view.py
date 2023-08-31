@@ -33,3 +33,13 @@ def testing(request):
     }
     return HttpResponse(template.render(context, request))
 https://github.com/samson-olofinsae/Dj-pro.git
+
+#  view for numeric if in template  (greeting ==1) added  below
+
+def testing (request):
+    template = loader.get_template ('template.html')
+    context = {
+    'greeting' : 1,
+}
+
+    return HttpResponse (template.render (context, request))
