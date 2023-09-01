@@ -43,3 +43,13 @@ def testing (request):
 }
 
     return HttpResponse (template.render (context, request))
+
+# view for IF/ELSE  tag
+#def testing (request):
+#   template = loader.get_template ('template.html')
+#   context =  {
+#    'greeting' : 3,
+#}
+
+    return HttpResponse (template.render (context, request)
+
