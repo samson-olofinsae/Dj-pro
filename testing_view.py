@@ -52,4 +52,3 @@ def testing (request):
 #}
 
     return HttpResponse (template.render (context, request)
-
