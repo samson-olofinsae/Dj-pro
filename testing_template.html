@@ -40,7 +40,33 @@ template for IF/ELSE TAG
 
 -->
 <!-- Please inspect the above. Thanks-->
+
+<!--
+<ul>
+    {% for x in mymembers %}
+    <li>{{ x.firstname }}</li>    
+    {% endfor %}
+</ul>
+<p>In views.py you can see how to import and fetch members from the database.</p> 
+
+</body>
+</html> 
+
+
 <p> In view.py you can see what the greeting variable looks like.</p>
 </body>
 </html>
+-->
 
+
+<!-- below is INCLUDE template for footer-->
+<h1>Hello</h1>
+<p>This page contains a footer in a template.</p>
+{% include 'footer.html'%}
+
+<p>Check out the two templates to see what they look like, and views.py to see the reference to the child template.</p>
+
+<!--bottom of html is below-->
+
+</body>
+</html>
